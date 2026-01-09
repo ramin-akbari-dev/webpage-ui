@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="style_website.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn" ><a href="#">Contect</a></li>
+        </ul>
+        <span class="menu-btn "><i class="fa fa-solid fa-bars "></i></span>
+        
+    </nav>
+ 
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a class="ctn" href="#">Learn More</a>
+        </div>
+    </header>
+
+    <!-- ==events -->
+
+    <section class="events"><!-- section 1 -->
+        <div class="title">
+            <h1>Upcomming Events</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img class="imag" src="./imag/photo1 (6).jpg" alt="">
+                <h4>Lorem ipsum dolor</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum recusandae</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img class="imag" src="./imag/photo1 (5).jpg" alt="">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum recusandae</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section><!-- section 1 -->
+
+
+    <section class="explore"><!-- section 2 -->
+        <div class="expolore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos excepturi nam doloribus sed nostrum impedit? Illo optio animi sequi ratione.</p>
+        <a class="ctn" href="#" >Learn More</a>
+        </div>
+    </section><!-- ssection2 -->
+
+
+    <section class="tours"><!-- section 3 tours -->
+
+       <div class="row">
+        <div class="col content-col">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, adipisci laudantium? Officia commodi eveniet quae, sunt vitae itaque quo? Itaque.</p>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="./imag/photo1 (7).jpg" alt="">
+                <img src="./imag/photo1 (3).jpg" alt="">
+                <img src="./imag/photo1 (8).jpg" alt="">
+                <img src="./imag/photo1 (5).jpg" alt="">
+            </div>
+        </div>
+       </div>
+
+
+    </section><!-- section 3 tours -->
+
+    <section class="footer"><!-- footer section -->
+
+        <p>Kabul - Afghanistan || <a href="https://github.com/ramin-akbari-dev"</a>github || ramin-akbari-dev</p>
+
+        <p>Copyright 2026 by <a href="https://www.linkedin.com/in/ramin-akbari1/"</a>linkedin || Ramin Akbari</p>
+
+    </section><!-- footer section -->
+
+
+    
+    <script>//this code toggle for menu
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
